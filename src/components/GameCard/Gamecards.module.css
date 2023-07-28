@@ -1,0 +1,42 @@
+.game {
+  display: flex;
+  gap: 1rem;
+  width: 22rem;
+  position: relative;
+  list-style: none;
+}
+
+.game__title {
+  word-break: break-all;
+}
+
+.game__image {
+  object-fit: cover;
+  border-radius: 1rem;
+}
+
+.game__info {
+  display: flex;
+  flex-direction: column;
+  width: 15rem;
+}
+
+.game__delete {
+  color: red;
+  background-color: inherit;
+  border: none;
+  position: absolute;
+  right: -15px;
+  top: -30px;
+  cursor: pointer;
+  font-size: 3rem;
+}
+
+.game__details {
+  display: flex;
+  align-items: center;
+}
+
+.game__synopsis {
+  word-break: break-all;
+}
