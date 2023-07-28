@@ -1,3 +1,4 @@
+import Header from "@/components/Header/Header";
 import "../styles/globals.css";
 import type { Metadata } from "next";
 import { Roboto } from "next/font/google";
@@ -17,7 +18,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="es">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        <Header />
+        {children}
+      </body>
     </html>
   );
 }
