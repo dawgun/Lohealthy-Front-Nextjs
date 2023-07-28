@@ -7,7 +7,7 @@ interface GameCardProps {
 }
 
 const GameCard = ({ game }: GameCardProps): JSX.Element => {
-  const maxLettersSynopsis = 50;
+  const maxLettersSynopsis = 80;
 
   return (
     <li className={styles.game}>
