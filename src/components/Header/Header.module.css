@@ -1,0 +1,24 @@
+.header {
+  background-color: #292929;
+  display: flex;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 1rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-button {
+  background: inherit;
+  border: 0;
+  padding: 0;
+  cursor: pointer;
+}
+
+.header-title__first-part {
+  color: white;
+}
+
+.header-title__second-part {
+  color: #d43521;
+}
